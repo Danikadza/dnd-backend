@@ -1,6 +1,7 @@
 import  express  from "express";
 import path from 'path'
 import raceRoutes from './routes/race.js'
+import classRoutes from './routes/class.js'
 import cors from "cors"
 
 const app = express()
@@ -10,6 +11,7 @@ const __dirname = path.resolve()
 app.use(cors())
 
 app.use(raceRoutes)
+app.use(classRoutes)
 
 
 app.get('/', (req,res) => {
