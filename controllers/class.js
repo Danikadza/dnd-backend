@@ -3,6 +3,7 @@ let Class = [
         id: 1,
         name: 'Варвар',
         hitPoints: 12,
+        classSkillsCount: 2,
         classSkills : [
             'Атлетика',
             'Внимательность',
@@ -20,12 +21,25 @@ let Class = [
         id: 2,
         name: 'Бард',
         hitPoints: 8,
+        classSkillsCount: 3,
         classSkills : [
             'Атлетика',
+            'Акробатика',
+            'Анализ',
             'Внимательность',
             'Выживание',
+            'Выступление',
             'Запугивание',
+            'История',
+            'Магия',
+            'Медицина',
+            'Обман',
+            'Ловкость рук',
             'Природа',
+            'Проницательность',
+            'Религия',
+            'Скрытность',
+            'Убеждение',
             'Уход за животными'
         ],
         classAbility : [
@@ -37,6 +51,7 @@ let Class = [
         id: 3,
         name: 'Жрец',
         hitPoints: 8,
+        classSkillsCount: 2,
         classSkills : [
             'История',
             'Медицина',
@@ -53,12 +68,13 @@ let Class = [
         id: 4,
         name: 'Друид',
         hitPoints: 8,
+        classSkillsCount: 2,
         classSkills : [
             'Внимательность',
             'Виживание',
             'Магия',
             'Медицина',
-            'Обращение с животными',
+            'Уход за животными',
             'Природа',
             'Проницательность',
             'Религия'
@@ -72,6 +88,7 @@ let Class = [
         id: 5,
         name: 'Воин',
         hitPoints: 10,
+        classSkillsCount: 2,
         classSkills : [
             'Атлетика',
             'Внимательность',
@@ -90,6 +107,7 @@ let Class = [
         id: 6,
         name: 'Монах',
         hitPoints: 8,
+        classSkillsCount: 2,
         classSkills : [
             'Акробатика',
             'Атлетика',
@@ -107,6 +125,7 @@ let Class = [
         id: 7,
         name: 'Паладин',
         hitPoints: 10,
+        classSkillsCount: 2,
         classSkills : [
             'Атлетика',
             'Запугивание',
@@ -124,6 +143,7 @@ let Class = [
         id: 8,
         name: 'Следопыт',
         hitPoints: 10,
+        classSkillsCount: 2,
         classSkills : [
             'Анализ',
             'Атлетика',
@@ -143,6 +163,7 @@ let Class = [
         id: 9,
         name: 'Плут',
         hitPoints: 8,
+        classSkillsCount: 2,
         classSkills : [
             'Акробатика',
             'Анализ',
@@ -166,6 +187,7 @@ let Class = [
         id: 10,
         name: 'Чародей',
         hitPoints: 6,
+        classSkillsCount: 2,
         classSkills : [
             'Запугивание',
             'Магия',
@@ -183,6 +205,7 @@ let Class = [
         id: 11,
         name: 'Колдун',
         hitPoints: 8,
+        classSkillsCount: 2,
         classSkills : [
             'Анализ',
             'Запугивание',
@@ -201,6 +224,7 @@ let Class = [
         id: 12,
         name: 'Волшебник',
         hitPoints: 8,
+        classSkillsCount: 2,
         classSkills : [
             'Анализ',
             'История',
